@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.dropdown-web"
+          path="/org/gnome/shell/extensions/dropdown-web/">
+
+    <key name="toggle-shortcut" type="as">
+      <default><![CDATA[['<Super>grave']]]></default>
+      <summary>Keyboard shortcut to show/hide the dropdown</summary>
+    </key>
+
+    <key name="web-url" type="s">
+      <default>'https://example.com'</default>
+      <summary>URL to load in the dropdown window</summary>
+    </key>
+
+    <key name="window-width" type="d">
+      <default>1.0</default>
+      <summary>Window width as a fraction of screen width (0.0 - 1.0)</summary>
+    </key>
+
+    <key name="window-height" type="d">
+      <default>0.5</default>
+      <summary>Window height as a fraction of screen height (0.0 - 1.0)</summary>
+    </key>
+
+  </schema>
+</schemalist>

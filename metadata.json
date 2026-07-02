@@ -1,0 +1,8 @@
+{
+  "uuid": "dropdown-web@local",
+  "name": "Dropdown Web",
+  "description": "Dropdown window for any web page. Press a shortcut to slide a web app down from the top of the screen; press again to hide it.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "mrauf.me",
+  "settings-schema": "org.gnome.shell.extensions.dropdown-web"
+}
